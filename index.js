@@ -11,6 +11,11 @@ const { graphql } = require("@octokit/graphql");
               node {
                 id
                 name
+                latestVersion {
+                  id
+                  platform
+                  summary
+                }
               }
             }
           }
