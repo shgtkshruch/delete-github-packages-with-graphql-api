@@ -5,11 +5,12 @@ const { graphql } = require("@octokit/graphql");
   const { repository } = await graphql(
     `
       {
-        repository(owner: "octokit", name: "graphql.js") {
-          issues(last: 3) {
+        repository(owner: "shgtkshruch", name: "esquisse") {
+          packages(first: 3) {
             edges {
               node {
-                title
+                id
+                name
               }
             }
           }
@@ -18,7 +19,8 @@ const { graphql } = require("@octokit/graphql");
     `,
     {
       headers: {
-        authorization: `token ${process.env.GITHUB_API_TOKEN}`
+        authorization: `token ${process.env.GITHUB_API_TOKEN}`,
+        Accept: "application/vnd.github.packages-preview+json"
       }
     }
   );
