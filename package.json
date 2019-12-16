@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shgtkshruch/github-graphql-client-sample/issues"
   },
-  "homepage": "https://github.com/shgtkshruch/github-graphql-client-sample#readme"
+  "homepage": "https://github.com/shgtkshruch/github-graphql-client-sample#readme",
+  "dependencies": {
+    "@octokit/graphql": "^4.3.1"
+  }
 }
