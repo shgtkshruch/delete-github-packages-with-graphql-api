@@ -6,7 +6,7 @@ const { graphql } = require("@octokit/graphql");
     `
       mutation {
         deletePackageVersion(input: {
-          packageVersionId: "MDE0OlBhY2thZ2VWZXJzaW9uNDU4NzAw",
+          packageVersionId: ${process.argv[2]},
         }) {
           clientMutationId,
           success
