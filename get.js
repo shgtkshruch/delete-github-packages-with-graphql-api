@@ -5,7 +5,7 @@ const { graphql } = require("@octokit/graphql");
   const { repository } = await graphql(
     `
       {
-        repository(owner: "shgtkshruch", name: "esquisse") {
+        repository(owner: "${process.argv[2]}", name: "${process.argv[3]}") {
           packages(first: 3) {
             edges {
               node {
