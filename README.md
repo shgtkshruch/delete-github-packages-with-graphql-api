@@ -1,5 +1,13 @@
 Delete GitHub Packages through [GitHub GraphQL API v4](https://developer.github.com/v4/).
 
+## Install
+ 
+```sh
+git clone git@github.com:shgtkshruch/delete-github-packages-with-graphql-api.git
+cd delete-github-packages-with-graphql-api
+npm i
+```
+
 ## Set up
 
 1. Get [GiHub personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
