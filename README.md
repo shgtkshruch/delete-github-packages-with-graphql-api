@@ -1,6 +1,4 @@
-# github-graphql-client-sample
-
-Delete GitHub Package through [GitHub GraphQL API v4](https://developer.github.com/v4/).
+Delete GitHub Packages through [GitHub GraphQL API v4](https://developer.github.com/v4/).
 
 ## Set up
 
