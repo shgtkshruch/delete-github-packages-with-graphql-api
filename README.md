@@ -15,7 +15,7 @@ Add scopes below.
 
 ```sh
 # Get package version ID
-node get.js
+node get.js [owner] [repository name]
 
 # Delete specific version package
 node delete.js [package version ID]
