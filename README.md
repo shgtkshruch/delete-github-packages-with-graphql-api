@@ -4,7 +4,7 @@ Delete GitHub Package through [GitHub GraphQL API v4](https://developer.github.c
 
 ## Set up
 
-Set GiHub personal access token to environment variables.
+Set [GiHub personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) to environment variables.
 
 Add scopes below.
 - `repo`
